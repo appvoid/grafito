@@ -1,5 +1,7 @@
 # grafito
-This is a public research experiment and personal project on a set of prompt-fine-tuned GPT-series models for generation tasks on chat form. Each one of these models are in current evaluation (prompt-engineering) to explore better ways to extract useful conversational tasks from them. Custom prompts and an Android app on the making using the prompt-fine-tuned model finetuned-diamond-001-beta will be released here, link will be available through this file in the future. Note that finetuned-codename-version and codename-version are used interchangebly here.
+This is a public research experiment and personal project on a set of prompt-fine-tuned GPT-series models for generation tasks on chat form. Each one of these models are in current evaluation (prompt-engineering) to explore better ways to extract useful conversational tasks from them. Custom prompts and an Android app on the making using the prompt-fine-tuned model finetuned-diamond-001-beta will be released here, link will be available through this file in the future. 
+
+Note that finetuned-codename-version and codename-version are used interchangebly here.
 
 ### Models in evaluation / fine-tunning
 | Codename    |Official name| Parameters  | Accuracy    |
