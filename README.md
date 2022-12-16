@@ -22,4 +22,4 @@ Progress will made top-to-bottom, from the highest performant to the lowest, thi
 **Diamond**
 - When fine-tunning Diamond on basic few-shot (Q:A:) pairs, rather than additional context like "This is a chatbot that does...", it consistently gives better results than other interview-like styles. Specially when Top P = 1. Mentioned setting is default now.
 - Does pretty weird at math. When asked: "2 plus 5", "2+5", "Two plus five", answers "8." or "Eight.". It gets close but fails.
-- Also, encoded memory as context makes the chatbot ocassionally repetitive which is bad for memory since it will "think" that he should say the same thing forever.
+- Also, encoded memory as context makes the chatbot ocassionally repetitive which is bad for memory since it will "think" that he should say the same thing forever. A proper solution remains in experimenting with temperature which is even worse for accuracy most of the time.
