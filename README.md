@@ -13,8 +13,9 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 
 Progress will made top-to-bottom, from the highest performant to the lowest, this way it is ensured that we are getting the most from each model. The main goal of the project is to get the lower performant models as close as possible to Diamond performance.
 
-### Observations (12/16/2022)
+### Observations
 
+#### (12/16/2022)
 **Emerald/Ruby performance**
 
 - Sometimes Emerald performs better than Ruby. This fact implies that there are different "sweet spots" for each mdoel even when the same model is feeded on the same data with different number of parameters.
