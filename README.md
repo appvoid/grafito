@@ -12,7 +12,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | Ruby        | GPT Neo     | 2.7 Billion | Coming soon |
 | Diamond     | GPT-J       | 6 Billion   | In progress |
 
-Progress will made top-to-bottom, from the highest performant to the lowest, this way it is ensured that we are getting the most from each model. The main goal of the project is to get the lower performant models as close as possible to Diamond performance.
+Progress will made top-to-bottom, from the highest performant to the lowest, this way it is ensured that we are getting the most from each model. The main goal of the project is to get an align system that understand NLP tasks and performs those tasks using few-shot templates. Also, to get the lower performant models as close as possible to Diamond performance.
 
 ### Observations
 
