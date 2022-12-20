@@ -1,6 +1,6 @@
 # grafito: Great Retreiver And Formal Intelligence Through Open-domain
 ![Alt Text](https://raw.githubusercontent.com/appvoid/grafito/1a5d76f45bb1ceb5ca012b6337072796df00c383/grafito.gif)
-This is a public research experiment and personal project on a set of prompt-fine-tuned GPT-series models for generation tasks on chat form. Each one of these models are in current evaluation (prompt-engineering) to explore better ways to extract useful conversational tasks from them. Custom prompts and an Android app is on the making using the prompt-fine-tuned model pt-diamond-001-beta and will be released here, link will be available through this file in the future. "Grafito" comes from Spanish word and it means Graphite.
+This is a public research experiment and personal project on a set of prompt-fine-tuned GPT-series models for generation tasks on chat form. Each one of these models are in current evaluation (prompt-engineering) to explore better ways to extract useful conversational tasks from them. Custom prompts and an Android app is on the making using the prompt-fine-tuned model pt-diamond-001-beta and will be released here, link will be available through this file in the future. "Grafito" comes from Spanish word and it means Graphite. It's powered by the glorious banana's API!
 
 Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time.
 
