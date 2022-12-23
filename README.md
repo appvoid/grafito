@@ -9,8 +9,8 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | ----------- | ----------- | ----------- | ----------- |
 | Opal        | Bloom       | 1 Billion   | Coming soon | 
 | Emerald     | GPT Neo     | 1.3 Billion | Coming soon |
-| Ruby        | GPT Neo     | 2.7 Billion | Coming soon |
-| Diamond     | GPT-J       | 6 Billion   | In progress |
+| Ruby        | GPT Neo     | 2.7 Billion | In progress |
+| Diamond     | GPT-J       | 6 Billion   | Few-Shot L. |
 
 Progress will made top-to-bottom, from the highest performant to the lowest, this way it is ensured that we are getting the most from each model. The main goal of the project is to get an align system that understand NLP tasks and performs those tasks using few-shot templates. Also, to get the lower performant models as close as possible to Diamond performance.
 
