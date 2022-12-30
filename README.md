@@ -6,8 +6,11 @@ This is a public research experiment and personal project on a of prompt-fine-tu
 
 Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time.
 
-### Models in evaluation / fine-tunning
-| Codename    |Official name| Parameters  |     Learning Style     | State |
-| ----------- | ----------- | ----------- | ---------------------- | ----- |
-| Diamond     | GPT-J       | 6 Billion   | Few-Shot               | 🟩    |
-| Diamond     | GPT-J       | 6 Billion   | Fine-Tunning (FSMM)    | ⬛    |
+The techniques used are One-Shot and Few-Shot learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
+
+### Models in current evaluation
+| Codename    |Official name| Parameters  |     Learning Style     | Finished |
+| ----------- | ----------- | ----------- | ---------------------- | -------- |
+| Diamond-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | 🟩       |
+| Diamond-002 | GPT-J       | 6 Billion   | Fine-Tunning (MMIC)    | ⬛       |
+
