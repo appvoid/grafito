@@ -4,9 +4,6 @@ This is a public research experiment and personal project on a of prompt-fine-tu
 
 [👉 Google Play Store App link](https://play.google.com/store/apps/details?id=com.nohakcoffeeofficial.grafitoai)
 
-### Deprication note
-Open Source language models were depricated to focus more on the final, usable product itself. The technique used on this project works pretty good on GPT-J though.
-
 Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time.
 
 The techniques used are One-Shot and Few-Shot learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
@@ -17,3 +14,5 @@ The techniques used are One-Shot and Few-Shot learning. Future iterations will a
 | Diamond-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | 🟩       |
 | Diamond-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 
+### Deprication note
+Open Source language models were depricated to focus more on the final, usable product itself. The technique used on this project works pretty good on GPT-J though.
