@@ -11,8 +11,10 @@ The techniques used are One-Shot and Few-Shot learning. Future iterations will a
 ### Models in current evaluation
 | Codename    |Official name| Parameters  |     Learning Style     | Published|
 | ----------- | ----------- | ----------- | ---------------------- | -------- |
-| Diamond-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | 🟩       |
+| Diamond-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | ⬛       |
 | Diamond-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
+| Diamond-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
+| Diamond-004 | LLaMA       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 
 ### Deprication note
 Open Source language models were depricated to focus more on the final, usable product itself. The technique used on this project works pretty good on GPT-J though.
