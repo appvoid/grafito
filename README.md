@@ -16,5 +16,11 @@ The techniques used are One-Shot and Few-Shot learning. Future iterations will a
 | Diamond-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
 | Diamond-004 | LLaMA       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 
+
+Once Alpaca models are released, [see here](https://crfm.stanford.edu/2023/03/13/alpaca.html), an even more customized, better fine-tuning will be made and a reward model will be included, GPT-4 level you would say. Still waiting for LLaMA license change to be approved. Something to note here is that these models cannot be used (yet) as commercial products.
+
 ### Deprication note
 Open Source language models were depricated to focus more on the final, usable product itself. The technique used on this project works pretty good on GPT-J though.
+
+### Deprication note #2
+Open Source language models are (again, thanks to Meta) back into consideration.
