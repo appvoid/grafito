@@ -8,6 +8,8 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 
 The techniques used are One-Shot and Few-Shot learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
 
+*Edit 03/14/2023: Basically what was made with today's debut of GPT-4 but the model actually recognizing when to use multimodality.*
+
 ### Models in current evaluation
 | Codename    |Official name| Parameters  |     Learning Style     | Published|
 | ----------- | ----------- | ----------- | ---------------------- | -------- |
