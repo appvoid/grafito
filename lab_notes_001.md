@@ -22,4 +22,4 @@ Then we take the approximated formula of OpenAI's tokenizer, and we can find tha
 if we have have 100 words, we will get 125 tokens, meaning that we that for each word, we are getting 1.25x tokens.
 
 
-1 GB = 90~ million words = 11.25~ million tokens
+1 GB = ~90 million words = ~11.25 million tokens
