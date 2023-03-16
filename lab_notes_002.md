@@ -12,7 +12,7 @@ First, the OPT model will generate answers till certain threshold is met. We set
 
 ### Results
 
-Based on experiments with bart-mnli, we found that tolerable thresholds for this model start at a 74% of truthfulness based on 61 samples though sometimes gets stucked thinking a good answer.
+Based on experiments with bart-mnli, we found that tolerable thresholds for this model start at a 74% of truthfulness, (where truthfulness means bart-mlni accuracy with custom truth prompts), based on 61 samples though sometimes gets stucked thinking a good answer.
 But after an extended realtime testing, we discover high, innacurate responses, which means that there were not enough samples test it.
 But for most of the answers, it was a really good trade-off between speed to get responses and the quality measured.
 
