@@ -13,12 +13,14 @@ The techniques used are One-Shot, Few-Shot and transfer learning. Future iterati
 ### Models in current evaluation
 | Codename    |Official name| Parameters  |     Learning Style     | Published|
 | ----------- | ----------- | ----------- | ---------------------- | -------- |
-| Diamond-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | ⬛       |
-| Diamond-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
-| Diamond-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
-|Diamond-004-s| OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
-|Diamond-004-m| OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
-|Diamond-004-l| LLaMA       | 6.7 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
+| emerald-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | ⬛       |
+| emerald-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
+| emerald-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
+|ruby-001-s   | OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
+|ruby-001-b   | OPT         | 350 Million | Fine-Tunning (FS)+(TL) | ⬛       |
+|ruby-001-l   | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
+|diamond-001| LLaMA       | 6.7 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
+
 
 
 *Once Alpaca models are released, [see here](https://crfm.stanford.edu/2023/03/13/alpaca.html), an even more customized, better fine-tuning will be made and a reward model will be included, GPT-4 level you would say. Still waiting for LLaMA license change to be approved. Something to note here is that these models cannot be used (yet) as commercial products.*
@@ -27,12 +29,7 @@ The techniques used are One-Shot, Few-Shot and transfer learning. Future iterati
 ### Finetuning 
 Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
 
-| Codename    |Official name| Parameters  |     Learning Style     |
-| ----------- | ----------- | ----------- | ---------------------- |
-| opt         | opt-125m    | 125 Million | Fine-Tunning (MMIC)    |
-| grafito     | diamond-s   | 125 Million |Fine-Tunning (FS) + (TL)|
-
-|Query|opt-125m (FS)|diamond-s (FS) + (TL)|
+|Query|opt-125m (FS)|ruby-001-s (FS) + (TL)|
 |-----|--------|---------|
 |what's the difference between you and me | I'm a human.| I'm Grafido.
 | what is javascript| I'm a web developer.|It's a web application that allows users to create websites and applications. It is used to create webpages and applications for various businesses and organizations.
