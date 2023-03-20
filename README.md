@@ -26,7 +26,9 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 ### Finetuning 
 ruby-s-001 is the first model of the Grafito series. It's a better version of opt-125m trained for 3 epochs on thousands of pre-fabricated and human-handcrafted tokens. Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
 
-|Query|opt-125m|ruby-s|
+Notice that from here, opt-125m and opt-s is the same.
+
+|Query|opt-s|ruby-s|
 |-----|--------|---------|
 |what's the difference between you and me | I'm a human.| I'm Grafido.
 | what is javascript| I'm a web developer.|It's a web application that allows users to create websites and applications. It is used to create webpages and applications for various businesses and organizations.
