@@ -47,8 +47,8 @@ As you can notice, even with just 125m parameters, it's stll capable of improvin
 ### Biases
 Even though the ruby-t is better than opt-125m, sometimes, the later performs the same or even better than the fintuned version. The model underperforms specially on science topics probably because of biases on the pre-training phase. Also, this model is (as expected) as bad as the base model on math, though is a little bit better at reasoning. Something to note here is that prompt-engineering on this time was not well ellaborated. This technique can drastically improve performance while also mitigating a lot of biases.
 
-### Deprication note
+#### Deprication note
 Open Source language models were depricated to focus more on the final, usable product itself. The technique used on this project works pretty good on GPT-J though.
 
-### Deprication note #2
+#### Deprication note #2
 Open Source language models are (again, thanks to Meta) back into consideration.
