@@ -26,7 +26,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 ### Finetuning 
 Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
 
-|Query|opt-125m (FS)|ruby-s (FS) + (TL)|
+|Query|opt-125m|ruby-s|
 |-----|--------|---------|
 |what's the difference between you and me | I'm a human.| I'm Grafido.
 | what is javascript| I'm a web developer.|It's a web application that allows users to create websites and applications. It is used to create webpages and applications for various businesses and organizations.
