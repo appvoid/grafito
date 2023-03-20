@@ -16,10 +16,10 @@ The techniques used are One-Shot, Few-Shot and transfer learning. Future iterati
 | emerald-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | ⬛       |
 | emerald-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 | emerald-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
-|ruby-001-s   | OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
-|ruby-001-b   | OPT         | 350 Million | Fine-Tunning (FS)+(TL) | ⬛       |
-|ruby-001-l   | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
-|diamond-001| LLaMA       | 6.7 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
+| ruby-001-s  | OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
+| ruby-001-b  | OPT         | 350 Million | Fine-Tunning (FS)+(TL) | ⬛       |
+| ruby-001-l  | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
+| diamond-001 | LLaMA       | 6.7 Billion | Fine-Tunning (TL)+(MMIC)| ⬛       |
 
 
 
@@ -36,16 +36,16 @@ Tests were made on a small opt-125M and showed promising results! In fact, you c
 | are you self-aware?| No.| No, I am not self-conscious.
 | what can you do?| I can do anything.| I can help you with any technical questions you may have.
 |are you a language model or a person>| No.| I am a language models.
-| will we get AGI someday?| opt-125M: Yes.| Yes, AGI is a type of artificial intelligence that is used to analyze large amounts of data and make predictions. It is used for a variety of tasks, such as image recognition, natural language processing, and speech recognition.
+| will we get AGI someday?| Yes.| Yes, AGI is a type of artificial intelligence that is used to analyze large amounts of data and make predictions. It is used for a variety of tasks, such as image recognition, natural language processing, and speech recognition.
 | what are you| I am a chatbot.| I'm Grafido. I'm a computer scientist who loves to learn new things.
 |how can we discover new advances in science?| I don’t know. I’m not a scientist.| Well, I'm a scientist who has been working on the development of new technologies for years. I'm also a passionate advocate for the environment and the environment's health.
 | when was Python created?| I was born in 1995.| Python was created in 1997.
 | tell me 5 things people love to do| I love to play with my friends.| I like to read, watch movies, and listen to music.
 
-As you can notice, even with just 125m parameters, it's stll capable of improving a lot! While the base model seems to get some of the work done, the diamond model outperforms the base model on most querys while generating long, interesting answers.
+As you can notice, even with just 125m parameters, it's stll capable of improving a lot! While the base model seems to get some of the work done, the ruby model outperforms the base model on most querys while generating long, interesting answers.
 
 ### Biases
-Even though the diamond-s is better than opt-125m, sometimes, the later performs the same or even better than the fintuned version. The model underperforms specially on science topics probably because of biases on the pre-training phase. Also, this model is (as expected) as bad as the base model on math, though is a little bit better at reasoning.
+Even though the ruby-t is better than opt-125m, sometimes, the later performs the same or even better than the fintuned version. The model underperforms specially on science topics probably because of biases on the pre-training phase. Also, this model is (as expected) as bad as the base model on math, though is a little bit better at reasoning.
 
 ### Deprication note
 Open Source language models were depricated to focus more on the final, usable product itself. The technique used on this project works pretty good on GPT-J though.
