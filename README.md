@@ -4,12 +4,12 @@ This is a public research experiment and personal project on a family of prompt-
 
 [👉 Google Play Store App link](https://play.google.com/store/apps/details?id=com.nohakcoffeeofficial.grafitoai)
 
-Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time.
+Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time. The techniques used are One-Shot, Few-Shot and Transfer Learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
 
-The techniques used are One-Shot, Few-Shot and Transfer Learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
-
+### Edits
 *Edit 03/14/2023: Basically what was made with today's debut of GPT-4 but the model actually recognizing when to use multimodality.*<br>
 *Edit 03/20/2023: The codename for diamond-004 changed to emerald-003.*
+
 ### Models in current evaluation
 | Codename    |Official name| Parameters  |     Learning Style     | Published|
 | ----------- | ----------- | ----------- | ---------------------- | -------- |
@@ -21,10 +21,7 @@ The techniques used are One-Shot, Few-Shot and Transfer Learning. Future iterati
 | ruby-001-l  | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
 | diamond-001 | LLaMA       | 6.7 Billion | Fine-Tunning (TL)+(MMIC)| ⬛       |
 
-
-
 *Once Alpaca models are released, [see here](https://crfm.stanford.edu/2023/03/13/alpaca.html), an even more customized, better fine-tuning will be made and a reward model will be included, GPT-4 level you would say. Still waiting for LLaMA license change to be approved. Something to note here is that these models cannot be used (yet) as commercial products.*
-
 
 ### Finetuning 
 Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
