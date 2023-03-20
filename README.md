@@ -9,7 +9,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 The techniques used are One-Shot, Few-Shot and transfer learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
 
 *Edit 03/14/2023: Basically what was made with today's debut of GPT-4 but the model actually recognizing when to use multimodality.*
-
+*Edit 03/20/2023: The codename for diamond-004 changed to emerald-003*
 ### Models in current evaluation
 | Codename    |Official name| Parameters  |     Learning Style     | Published|
 | ----------- | ----------- | ----------- | ---------------------- | -------- |
