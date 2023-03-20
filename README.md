@@ -26,7 +26,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 ### Finetuning 
 ruby-s-001 is the first model of the Grafito series. It's a better version of opt-125m trained for 3 epochs on thousands of pre-fabricated and human-handcrafted tokens. Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
 
-Notice that from here, opt-125m and opt-s is the same.
+Notice that from here, opt-125m and opt-s refers to the same language model.
 
 |Query|opt-s|ruby-s|
 |-----|--------|---------|
