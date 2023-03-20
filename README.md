@@ -16,15 +16,15 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | emerald-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | ⬛       |
 | emerald-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 | emerald-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
-| ruby-001-s  | OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
-| ruby-001-b  | OPT         | 350 Million | Fine-Tunning (FS)+(TL) | ⬛       |
-| ruby-001-l  | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
+| ruby-s-001  | OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
+| ruby-b-001  | OPT         | 350 Million | Fine-Tunning (FS)+(TL) | ⬛       |
+| ruby-l-001  | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
 | diamond-001 | LLaMA       | 6.7 Billion | Fine-Tunning (TL)+(MMIC)| ⬛       |
 
 *Once Alpaca models are released, [see here](https://crfm.stanford.edu/2023/03/13/alpaca.html), an even more customized, better fine-tuning will be made and a reward model will be included, GPT-4 level you would say. Still waiting for LLaMA license change to be approved. Something to note here is that these models cannot be used (yet) as commercial products.*
 
 ### Finetuning 
-Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
+ruby-s-001 is the first model of the Grafito series. It's a better version of opt-125m trained for 3 epochs on thousands of pre-fabricated and human-handcrafted tokens. Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
 
 |Query|opt-125m|ruby-s|
 |-----|--------|---------|
