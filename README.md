@@ -16,6 +16,7 @@ The techniques used are One-Shot, Few-Shot and transfer learning. Future iterati
 | Diamond-001 | GPT-J       | 6 Billion   | Fine-Tunning (FS)      | ⬛       |
 | Diamond-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 | Diamond-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
+| Diamond-004 | OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
 | Diamond-004 | LLaMA       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 
 
