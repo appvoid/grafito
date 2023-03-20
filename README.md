@@ -17,7 +17,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | emerald-002 | Curie       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 | emerald-003 | Davinci     | 175 Billion | Fine-Tunning (FS)      | 🟩       |
 | ruby-s-001  | OPT         | 125 Million | Fine-Tunning (FS)+(TL) | 🟧       |
-| ruby-b-001  | OPT         | 350 Million | Fine-Tunning (FS)+(TL) | ⬛       |
+| ruby-m-001  | OPT         | 350 Million | Fine-Tunning (FS)+(TL) | ⬛       |
 | ruby-l-001  | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
 | diamond-001 | LLaMA       | 6.7 Billion | Fine-Tunning (TL)+(MMIC)| ⬛       |
 
