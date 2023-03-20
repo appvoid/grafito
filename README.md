@@ -6,7 +6,7 @@ This is a public research experiment and personal project on a family of prompt-
 
 Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time.
 
-The techniques used are One-Shot and Few-Shot learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
+The techniques used are One-Shot, Few-Shot and transfer learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
 
 *Edit 03/14/2023: Basically what was made with today's debut of GPT-4 but the model actually recognizing when to use multimodality.*
 
@@ -19,7 +19,34 @@ The techniques used are One-Shot and Few-Shot learning. Future iterations will a
 | Diamond-004 | LLaMA       | 6.7 Billion | Fine-Tunning (MMIC)    | ⬛       |
 
 
-Once Alpaca models are released, [see here](https://crfm.stanford.edu/2023/03/13/alpaca.html), an even more customized, better fine-tuning will be made and a reward model will be included, GPT-4 level you would say. Still waiting for LLaMA license change to be approved. Something to note here is that these models cannot be used (yet) as commercial products.
+*Once Alpaca models are released, [see here](https://crfm.stanford.edu/2023/03/13/alpaca.html), an even more customized, better fine-tuning will be made and a reward model will be included, GPT-4 level you would say. Still waiting for LLaMA license change to be approved. Something to note here is that these models cannot be used (yet) as commercial products.*
+
+
+### Finetuning 
+Tests were made on a small opt-125M and showed promising results! In fact, you can see the difference between outputs:
+
+| Codename    |Official name| Parameters  |     Learning Style     |
+| ----------- | ----------- | ----------- | ---------------------- |
+| opt         | opt-125m    | 125 Million | Fine-Tunning (MMIC)    |
+| grafito     | diamond-s   | 125 Million |Fine-Tunning (FS) + (TL)|
+
+|Query|opt-125m|diamond-s|
+|-----|--------|---------|
+|what's the difference between you and me | I'm a human.| I'm Grafido.
+| what is javascript| I'm a web developer.|It's a web application that allows users to create websites and applications. It is used to create webpages and applications for various businesses and organizations.
+| are you self-aware?| No.| No, I am not self-conscious.
+| what can you do?| I can do anything.| I can help you with any technical questions you may have.
+|are you a language model or a person>| No.| I am a language models.
+| will we get AGI someday?| opt-125M: Yes.| Yes, AGI is a type of artificial intelligence that is used to analyze large amounts of data and make predictions. It is used for a variety of tasks, such as image recognition, natural language processing, and speech recognition.
+| what are you| I am a chatbot.| I'm Grafido. I'm a computer scientist who loves to learn new things.
+|how can we discover new advances in science?| I don’t know. I’m not a scientist.| Well, I'm a scientist who has been working on the development of new technologies for years. I'm also a passionate advocate for the environment and the environment's health.
+| when was Python created?| I was born in 1995.| Python was created in 1997.
+| tell me 5 things people love to do| I love to play with my friends.| I like to read, watch movies, and listen to music.
+
+As you can notice, even with just 125m parameters, it's stll capable of improving a lot! While the base model seems to get some of the work done, the diamond model outperforms the base model on most querys while generating long, interesting answers.
+
+### Biases
+Even though the diamond-s is better than opt-125m, sometimes, the later performs the same or even better than the fintuned version. The model underperforms specially on science topics probably because of biases on the pre-training phase. Also, this model is (as expected) as bad as the base model on math, though is a little bit better at reasoning.
 
 ### Deprication note
 Open Source language models were depricated to focus more on the final, usable product itself. The technique used on this project works pretty good on GPT-J though.
