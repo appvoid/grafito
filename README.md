@@ -30,7 +30,7 @@ Tests were made on a small opt-125M and showed promising results! In fact, you c
 | opt         | opt-125m    | 125 Million | Fine-Tunning (MMIC)    |
 | grafito     | diamond-s   | 125 Million |Fine-Tunning (FS) + (TL)|
 
-|Query|opt-125m|diamond-s|
+|Query|opt-125m (FS)|diamond-s (FS) + (TL)|
 |-----|--------|---------|
 |what's the difference between you and me | I'm a human.| I'm Grafido.
 | what is javascript| I'm a web developer.|It's a web application that allows users to create websites and applications. It is used to create webpages and applications for various businesses and organizations.
