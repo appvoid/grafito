@@ -7,7 +7,7 @@ This is a public research experiment and personal project on a family of prompt-
 Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time. The techniques used are One-Shot, Few-Shot and Transfer Learning. Future iterations will adopt a mixture of Few-Shot and MultiModal Intent Classification.
 
 ### Edits
-*Edit 03/14/2023: Basically what was made with today's debut of GPT-4 but the model actually recognizing when to use multimodality.*<br>
+*Edit 03/14/2023: The goal of this project is similar to what was made with today's debut of GPT-4 but the model actually recognizing when to use multimodality.*<br>
 *Edit 03/20/2023: The codename for diamond-004 changed to emerald-003.*
 
 ### Models in current evaluation
