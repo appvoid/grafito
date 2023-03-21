@@ -21,6 +21,8 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | ruby-l-001  | OPT         | 1.3 Billion | Fine-Tunning (FS)+(TL) | ⬛       |
 | diamond-001 | LLaMA       | 6.7 Billion | Fine-Tunning (TL)+(MMIC)| ⬛       |
 
+*Note that emerald models are test models while the others are actual finetuned ones*
+
 *Once Alpaca models are released, [see here](https://crfm.stanford.edu/2023/03/13/alpaca.html), an even more customized, better fine-tuning will be made and a reward model will be included, GPT-4 level you would say. Still waiting for LLaMA license change to be approved. Something to note here is that these models cannot be used (yet) as commercial products.*
 
 ### Finetuning 
