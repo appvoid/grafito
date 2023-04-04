@@ -8,7 +8,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 
 ### Edits
 *Edit 03/14/2023: The goal of this project is similar to what was made with today's debut of GPT-4 but the model actually recognizing when to use multimodality.*<br>
-*Edit 03/20/2023: The codename for diamond-004 changed to emerald-003.*
+*Edit 03/20/2023: The codename for diamond-004 changed to emerald-003.*<br>
 *Edit 04/04/2023: Cerebras introduced their new models.*
 
 ### Models in current evaluation
