@@ -23,7 +23,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 
 *Note that obsidian models are lab models while the others are the official ones*
 
-### Finetuning 
+### Zero-Shot Benchmark
 Notice that from here, dlite refers to the orignial dlite-v1 language model.
 
 | query |  dlite  |  obsidian  |
