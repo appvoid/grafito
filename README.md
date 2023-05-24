@@ -13,7 +13,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 *Edit 04/04/2023: Cerebras introduced their new models.*<br>
 *Edit 05/24/2023: Things have changed a lot, now heading towards to lora models.*
 
-### Models in current evaluation
+### Models
 | Codename    |Official name | Parameters  |     Learning Style     | Sequence Length | Epochs           | Learning Rate         | Dataset           | Published |
 | ----------- | -----------  | ----------- | ---------------------- | --------------- | ---------------- | --------------------- | ----------------- |---------- |
 | [obsidian-000](https://huggingface.co/appvoid/obsidian-000)| dlite-v1     | 124 Million | Fine-Tunning (FS)+(TL) | 512             | 2                | 5e-4                  | anthropic-hh-rlhf | 🟩        |
