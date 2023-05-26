@@ -6,7 +6,7 @@ This is a public research experiment and personal project on a family of prompt-
 ~~[👉 Google Play Store App link](https://play.google.com/store/apps/details?id=com.nohakcoffeeofficial.grafitoai)~~
 App is temporaly down.
 
-Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time. The techniques used are One-Shot, Few-Shot and Transfer Learning through LoRA.
+Note that finetuned-codename-version and codename-version are used interchangebly here and that the current models, names and/or techniques are prone to change over time. The techniques used are One-Shot, Few-Shot, Transfer Learning through LoRA or simple "finetuning".
 
 ### Edits
 *Edit 03/20/2023: The codename for diamond-004 changed to emerald-003.*<br>
