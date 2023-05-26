@@ -14,12 +14,12 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 *Edit 05/24/2023: Things have changed a lot, now heading towards to lora models.*
 
 ### Models
-| Adapter     |Official name | Parameters  |     Learning Style     | Sequence Length | Epochs           | Learning Rate         | Dataset           | Published |
+| Model       |Official name | Parameters  |     Learning Style     | Sequence Length | Epochs           | Learning Rate         | Dataset           | Published |
 | ----------- | -----------  | ----------- | ---------------------- | --------------- | ---------------- | --------------------- | ----------------- |---------- |
-| [obsidian-000](https://huggingface.co/appvoid/obsidian-000)| dlite-v1     | 124 Million | Fine-Tunning (FS)+(TL) | 512             | 2                | 5e-4                  | anthropic-hh-rlhf | 🟩        |
-| ruby-s-000  |pythia-deduped| 160 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | 🟧        |
-| ruby-m-000  |pythia-deduped| 410 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
-| ruby-l-000  |pythia-deduped| 1 Billion   | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
+|[obsidian-000](https://huggingface.co/appvoid/obsidian-000)|dlite-v1|124 Million| Fine-Tunning (FS)+(TL) | 512             | 2                | 5e-4                  | anthropic-hh-rlhf | 🟩        |
+| ruby-s-000  |gpt2          | 160 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | 🟧        |
+| ruby-m-000  |gpt2          | 355 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
+| ruby-l-000  |gpt2          | 1.5 Billion | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
 
 *Note that obsidian models are lab models while the others are the official ones*
 
