@@ -24,6 +24,15 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 
 *Note that obsidian models are lab models while the others are the official ones*
 
+### Datasets
+The datasets used during the research are being modified, transformed and improved over time. Then, after filtering, cleaning and selecting in an automated way the best samples for the task, was decided to name the final dataset "grafito-25k". Small models trained on this dataset seems to be getting better are trained on it. More and better research is needed in order to prevent overfitting. But results are promising.
+
+| Dataset           | Samples         |
+| ----------------- | --------------- |
+| anthropic-hh-rlhf | 43835           |
+| dolly-s           | 4067            | 
+| grafito-25k       | 24736           |
+
 ### Zero-Shot Benchmark
 Notice that from here, dlite refers to the orignial dlite-v1 language model.
 
