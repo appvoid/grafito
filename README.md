@@ -18,7 +18,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | Model       |Official name | Parameters  |     Learning Style     | Sequence Length | Epochs           | Learning Rate         | Dataset           | Published |
 | ----------- | -----------  | ----------- | ---------------------- | --------------- | ---------------- | --------------------- | ----------------- |---------- |
 |[obsidian-000](https://huggingface.co/appvoid/obsidian-000)|dlite-v1|124 Million| Fine-Tunning (FS)+(TL) | 512             | 2                | 5e-4                  | anthropic-hh-rlhf | 🟩        |
-| ruby-s-001  |gpt2          | 160 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | 🟧        |
+| ruby-s-001  |gpt2          | 124 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | 🟧        |
 | ruby-m-001  |gpt2          | 355 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
 | ruby-l-001  |gpt2          | 1.5 Billion | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
 
