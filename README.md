@@ -19,8 +19,8 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | ----------- | -----------  | ----------- | ---------------------- | --------------- | ---------------- | --------------------- | ----------------- |---------- |
 |[obsidian-000](https://huggingface.co/appvoid/obsidian-000)|dlite-v1|124 Million| Fine-Tunning (FS)+(TL)| 512                   | 2                 | 5e-4      | anthropic-hh-rlhf | 🟩 |
 |page-ruby-002|gpt2          | 124 Million | Fine-Tunning (FS)+(TL) | 1024            | 1000 steps       | 1e-4                  |grafito-25k + simple wikipedia| 🟧        |
-| lazuli-001  |gpt2          | 355 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
-| diamond-001 |gpt2          | 774 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
+|text-lazuli-001  |gpt2          | 355 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
+|text-diamond-001 |gpt2          | 774 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
 
 *Note that obsidian models are lab models while the others are the official ones*
 
