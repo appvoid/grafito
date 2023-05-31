@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd grafito-cpp/build
+cmake ..
+make
+cd ./bin/
+chmod +x grafito-engine 
+mv grafito-engine ../../../grafito-engine
