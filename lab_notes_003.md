@@ -15,6 +15,8 @@ The concepts are related to each other based on:
 - Importance of close-enough nodes when emergence occur
 - Frequency of rewards and penalties
 
+Frequency of emergence is, how much this new concept (word) appears, semantics similarity is how much contextual meaning do they share, importance of close-enough nodes when emergence occur means how frequent we penalize or reward the model when it tries to "talk" about something new related to previous words and the frequency of rewards and penalties involves the human giving an overall rating to the model itself for each interaction regardless the word.
+
 Based on the four core ideas above, we can create a system that evaluates which connections should be weak and removed, and which should stay and become stronger. This way of optimizing memory makes it perfect to learn in realtime scenarios where important things should remain.
 
 But how can a machine learn what's important? Saying the word important a lof of times will make it important but that won't make it understand the concept. Well, that's where frequency of rewards comes in. If you have a machine that learns to understand which things should always be done no matter what, you should give it some kind of survival sense where the model wants to know what's best for it.
