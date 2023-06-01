@@ -20,3 +20,5 @@ Based on the four core ideas above, we can create a system that evaluates which 
 But how can a machine learn what's important? Saying the word important a lof of times will make it important but that won't make it understand the concept. Well, that's where frequency of rewards comes in. If you have a machine that learns to understand which things should always be done no matter what, you should give it some kind of survival sense where the model wants to know what's best for it.
 
 Best means the goal. Meaning that it should infer its own main "general" goal that makes it possible to achieve the original goal we set at the begining. This can be done by taking the goal we give to it, sketching out some ideas using prompt engineering and fine-tuning a small model for that specific goal. This approach it's painfully slow, but it ensures that the model is learning from its own output.
+
+On this phase, the goal is to retrieve by itself how to learn and remember effectively, which in principle, should be possible to do now that we have open-source models with pretty decent reasoning.
