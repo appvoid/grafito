@@ -24,6 +24,21 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 
 *Note that obsidian models are lab models while the others are the official ones*
 
+### Usage
+**Compiling grafito**
+```
+git clone https://github.com/appvoid/grafito.git
+cd grafito/grafito-cpp
+cmake .. && make
+# you should have now a grafito-engine binary.
+chmod +x grafito-engine
+```
+after your downloaded ruby-002:
+```
+./grafito-engine -m ruby-002 -p "hello"
+```
+
+
 ### Datasets
 The datasets used during the research are being modified, transformed and improved over time. Then, after filtering, cleaning and selecting in an automated way the best samples for the task, was decided to name the final dataset "grafito-25k". Small models trained on this dataset seems to be getting better are trained on it. More and better research is needed in order to prevent overfitting. But results are promising.
 
