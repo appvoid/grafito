@@ -25,7 +25,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 *Note that obsidian models are lab models while the others are the official ones*
 
 ### Usage
-**Compiling grafito**
+**Compiling grafito and loading a model**
 ```
 git clone https://github.com/appvoid/grafito.git
 cd grafito/grafito-cpp
