@@ -62,7 +62,7 @@ The datasets used during the research are being modified, transformed and improv
 | how can i make a videogame        | (repeats the query)               | (repeats the query)               | You can make a videogaÃ±ame wit.. | by using a blender or food pro... |
 | write a code in python to sum 2.. | (repeats the query)               | 2                                 | do 2 + 1 = 3, 5 + 1 = 6, 9 + 1... | sum(x,y)                          |
 
-As you can see, complex inputs makes it more probable to do what you ask the model, even though text-ruby-002 is not so good at math, it started to understand more complex, elaborated intructions. Notice how when asked (text-ruby-002) about how to make a game, it "knows" that the word "blender" (a 3d graphics engine) is related to videogames but the model is too biased as in the real life with people, about the meaning of that word. Because blender as a graphical software is not present in the pre-training nor fine-tuning dataset.
+As you can see, complex inputs makes it more probable to do what you ask the model, even though text-ruby-002 is not so good at math, it started to understand more complex, elaborated intructions. Notice how when asked (text-ruby-002) about how to make a game, it "knows" that the word "blender" (a 3d graphics engine) is related to videogames but the model is too biased (as in the real life with people when don't know about something), about the meaning of that word. Because blender as a graphical software is not present in the pre-training nor fine-tuning dataset.
 
 
 
