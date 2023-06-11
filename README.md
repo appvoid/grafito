@@ -49,7 +49,7 @@ The datasets used during the research are being modified, transformed and improv
 | grafito-25k       | 24736           |
 
 ### Zero-Shot Benchmark
-
+(using temperature near to zero)
 | query (custom prompted)           | base-124m                         | base-355m                         | page-ruby-002                     | text-ruby-002                     | 
 | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
 | what is 2+2                       | 2+2                               | 2+2                               | 2+2 is a unit of measurement f... | the ratio of the number of prot.. |
