@@ -29,6 +29,7 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 ```
 git clone https://github.com/appvoid/grafito.git
 cd grafito/grafito-cpp
+mkdir build && cd build
 cmake .. && make
 # you should have now a grafito-engine binary.
 chmod +x grafito-engine
