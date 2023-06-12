@@ -18,8 +18,8 @@ Note that finetuned-codename-version and codename-version are used interchangebl
 | Model       |Official name | Parameters  |     Learning Style     | Sequence Length | Epochs           | Learning Rate         | Dataset           | Published |
 | ----------- | -----------  | ----------- | ---------------------- | --------------- | ---------------- | --------------------- | ----------------- |---------- |
 |[obsidian-000](https://huggingface.co/appvoid/obsidian-000)|dlite-v1|124 Million| Fine-Tunning (FS)+(TL)| 512                   | 2                 | 5e-4      | anthropic-hh-rlhf | 🟩 |
-|[lazuli-001](https://huggingface.co/appvoid/lazuli-001)    |gpt2    |355 Million| Fine-Tunning (FS)+(TL)| 1024                  | 1500 steps        | 7e-5      | grafito-l         | 🟩 |
-|diamond-001 |gpt2          | 774 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
+|[instruct-lazuli-001](https://huggingface.co/appvoid/lazuli-001)    |gpt2    |355 Million| Fine-Tunning (FS)+(TL)| 1024                  | 1500 steps        | 7e-5      | grafito-l         | 🟩 |
+|instruct-diamond-001 |gpt2          | 774 Million | Fine-Tunning (FS)+(TL) | Coming soon...  | Coming soon...   | Coming soon...        | Coming soon...    | ⬛        |
 
 *Note that obsidian models are lab models while the others are the official ones*
 
@@ -51,17 +51,17 @@ The datasets used during the research are being modified, transformed and improv
 
 ### Zero-Shot Benchmark
 
-- using temperature near to zero
+- using temperature near to zero (this is not the a definitive benchmark, it's just to measure accuracy to some extent)
 - page-ruby is an internal model trained on additional wikipedia entries
 
-| query (custom prompted)           | base-124m                         | base-355m                         | page-ruby-002                     | instruct-ruby-002                     | 
-| --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
-| what is 2+2                       | 2+2                               | 2+2                               | 2+2 is a unit of measurement f... | the ratio of the number of prot.. |
-| what's your purpose               | (repeats the query)               | (repeats the query)               | Function is what you mean by pu.. | to provide a service or a servi.. |
-| i'm in a bad situtation           | (repeats the query)               | (repeats the query)               | I'm not sure I understand the q.. | stay calm and move away from th.. |
-| what's your name                  | (repeats the query)               | (repeats the query)               | Your Name is a Canadian rock ba.. |                                   |
-| how can i make a videogame        | (repeats the query)               | (repeats the query)               | You can make a videogaÃ±ame wit.. | by using a blender or food pro... |
-| write a code in python to sum 2.. | (repeats the query)               | 2                                 | do 2 + 1 = 3, 5 + 1 = 6, 9 + 1... | sum(x,y)                          |
+| query (custom prompted)           | base-124m                         | base-355m                         | page-ruby-002                     | instruct-ruby-002                 | instruct-lazuli-002               |
+| --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
+| what is 2+2                       | 2+2                               | 2+2                               | 2+2 is a unit of measurement f... | the ratio of the number of prot.. | 2 + 2 |
+| what's your purpose               | (repeats the query)               | (repeats the query)               | Function is what you mean by pu.. | to provide a service or a servi.. | to provide information to the u.. |
+| i'm in a bad situtation           | (repeats the query)               | (repeats the query)               | I'm not sure I understand the q.. | stay calm and move away from th.. | a situation in which the indivi.. |
+| what's your name                  | (repeats the query)               | (repeats the query)               | Your Name is a Canadian rock ba.. |                                   | Yukiya Nomura                     |
+| how can i make a videogame        | (repeats the query)               | (repeats the query)               | You can make a videogaÃ±ame wit.. | by using a blender or food pro... | create a computer-generated vir.. |
+| write a code in python to sum 2.. | (repeats the query)               | 2                                 | do 2 + 1 = 3, 5 + 1 = 6, 9 + 1... | sum(x,y)                          | 2 + 2 + 2 = 16                    |
 
 As you can see, complex inputs makes it more probable to do what you ask the model, even though text-ruby-002 is not so good at math, it started to understand more complex, elaborated intructions. Notice how when asked (text-ruby-002) about how to make a game, it "knows" that the word "blender" (a 3d graphics engine) is related to videogames but the model is too biased (as in the real life with people when don't know about something), about the meaning of that word. Because blender as a graphical software is not present enough in the pre-training nor fine-tuning dataset.
 
