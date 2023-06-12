@@ -54,7 +54,7 @@ The datasets used during the research are being modified, transformed and improv
 - using temperature near to zero
 - page-ruby is an internal model trained on additional wikipedia entries
 
-| query (custom prompted)           | base-124m                         | base-355m                         | page-ruby-002                     | text-ruby-002                     | 
+| query (custom prompted)           | base-124m                         | base-355m                         | page-ruby-002                     | instruct-ruby-002                     | 
 | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
 | what is 2+2                       | 2+2                               | 2+2                               | 2+2 is a unit of measurement f... | the ratio of the number of prot.. |
 | what's your purpose               | (repeats the query)               | (repeats the query)               | Function is what you mean by pu.. | to provide a service or a servi.. |
