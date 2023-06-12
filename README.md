@@ -32,6 +32,7 @@ cd grafito/grafito-cpp
 mkdir build && cd build
 cmake .. && make
 # you should have now a grafito-engine binary.
+cd bin
 chmod +x grafito-engine
 ```
 after your downloaded ruby-002:
