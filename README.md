@@ -34,9 +34,9 @@ cmake .. && make
 cd bin
 chmod +x grafito-engine
 ```
-after your downloaded ruby-002:
+after your downloaded lazulo-001:
 ```
-./grafito-engine -m ruby-002 -p "hello"
+./grafito-engine -m lazulo-001 -p "hello"
 ```
 
 
