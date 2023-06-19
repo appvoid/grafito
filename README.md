@@ -36,7 +36,7 @@ chmod +x grafito-engine
 ```
 after your downloaded lazulo-001:
 ```
-./grafito-engine -m lazulo-001 -p "hello"
+./grafito-engine -m lazuli-001 -p "hello"
 ```
 
 
