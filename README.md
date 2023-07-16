@@ -1,5 +1,8 @@
 # grafito: Great Retreiver Alignment For Intelligence Through Open-domain
 ![Alt Text](https://raw.githubusercontent.com/appvoid/grafito/1a5d76f45bb1ceb5ca012b6337072796df00c383/grafito.gif)
+
+### Note that this project is discontinued and a rebranded, newer better alternative will be released on the upcoming months hopeefully. You can still follow the tutorials, they should work as expected, if they don't, then instead compile the gpt-2 binaries directly from ggml.
+
 This is a public research experiment and personal project on a family of prompt-fine-tuned + transfer-learning GPT models for generation tasks on chat form. Each one of these iterations are in current evaluation (prompt-engineering) to explore better ways to extract useful conversational tasks from them. ~~An Android app is on the way. Link will be available through this file in the future.~~ "Grafito" comes from Spanish word and it means Graphite.
 
 If you are curious on how I'm finetuning these models, you can see this little guide I've made: [Finetuning GPT-2 in 4 steps](https://medium.com/@nohakcoffee/fine-tuning-gpt-2-in-4-steps-2d4a64d6c0c3)
